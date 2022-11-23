@@ -3,7 +3,7 @@ Gets urls from stdin and outputs the urls with parameters in them.
 
 **Install**
 ```
-pip install gparms==0.0.6
+pip install gparms==0.0.7
 ```
 
 **Usage**
