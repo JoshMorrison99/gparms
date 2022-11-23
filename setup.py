@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 import os
 
-VERSION = '0.0.5'
+VERSION = '0.0.6'
 DESCRIPTION = 'Get URL Parameters'
 LONG_DESCRIPTION = 'A tools that takes URLs from stdin and outputs URLs with parameters.'
 
