@@ -1,6 +1,11 @@
 # gparms
 Gets urls from stdin and outputs the urls with parameters in them.
 
+**Usage Full**
+```
+cat allSubs.txt | gparms | qsreplace | nuceli -t ~/nuceli-templates/vulnerabilities/generic
+```
+
 **Install**
 ```
 pip install gparms==0.0.8
