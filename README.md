@@ -3,7 +3,7 @@ Gets urls from stdin and outputs the urls with parameters in them.
 
 **Usage Full**
 ```
-cat allSubs.txt | gparms -s | uro | qsreplace | nuceli -t ~/nuclei-templates/vulnerabilities/generic
+cat allSubs.txt | gparms -s | uro | qsreplace | nuceli -t ~/nuclei-templates/vulnerabilities/generic/
 ```
 
 **Install**
