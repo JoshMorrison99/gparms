@@ -3,10 +3,10 @@ Gets urls from stdin and outputs the urls with parameters in them.
 
 **Install**
 ```
-pip install gparms==0.0.7
+pip install gparms==0.0.8
 ```
 
-**Usage**
+**Usage 1**
 ```
 cat allUrls.txt | gparms
 ```
@@ -38,4 +38,21 @@ http://example.com/leasing/suiteplanpopup.ch2?selectedCounter=7
 http://example.com/leasing/suiteplanpopup.ch2?selectedCounter=8
 http://example.com/leasing/suiteplanpopup.ch2?selectedCounter=9
 http://example.com/location/printableindex.ch2?selectedCounter=1
+```
+
+**Usage 2**
+```
+cat allUrls.txt | gparms -s
+```
+
+**Before**
+```
+http://example.com/leasing/suiteplanpopup.ch2?selectedCounter=4&uid=123&count=test
+```
+
+**After**
+```
+http://example.com/leasing/suiteplanpopup.ch2?selectedCounter=4
+http://example.com/leasing/suiteplanpopup.ch2?uid=123
+http://example.com/leasing/suiteplanpopup.ch2?count=test
 ```
