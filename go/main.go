@@ -1,4 +1,4 @@
-package gparms
+package main
 
 import (
 	"fmt"
